@@ -5,7 +5,8 @@ public class Objective6Lab5 {
     Scanner scanner = new Scanner(System.in);
     int selection;
 
-    while (true) { // while what is true? I need to print
+    while (true) { // while what is true - doesn't "true"
+      // need to be defined? I need to print
       //the menu out after printing the selection.
       System.out.println("_____Menu_____");
       System.out.println("1: Say Hello");
@@ -21,9 +22,9 @@ public class Objective6Lab5 {
       if (selection == 2){
         System.out.println("Apple, Banana, Coconut");
       }
-      else {
-        break;
+      if (selection == 3){
         System.out.println("Goodbye");
+        break;
       }
     }
     scanner.close();
