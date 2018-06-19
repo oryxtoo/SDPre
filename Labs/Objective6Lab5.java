@@ -5,9 +5,7 @@ public class Objective6Lab5 {
     Scanner scanner = new Scanner(System.in);
     int selection;
 
-    while (true) { // while what is true - doesn't "true"
-      // need to be defined? I need to print
-      //the menu out after printing the selection.
+    while (true) { 
       System.out.println("_____Menu_____");
       System.out.println("1: Say Hello");
       System.out.println("2: List My favorite foods");
